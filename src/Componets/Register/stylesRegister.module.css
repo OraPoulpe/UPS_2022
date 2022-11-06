@@ -25,9 +25,14 @@
     margin-bottom: 8px;
     gap:15px 52px  ;
     margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .text{
     color: #BEBEBE;
     margin-top: 35px;
 } 
+
+.img_logo{
+    margin-top: 50px;
+}

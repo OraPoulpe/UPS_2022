@@ -92,6 +92,7 @@ grid-template-columns: 1fr 1fr;
 
 .right-sidebar{
     background-color: #161D26;
+    max-width: 307px;
     padding: 31px 29px 0px 28px;
 }
 
@@ -106,10 +107,28 @@ grid-template-columns: 1fr 1fr;
     justify-content: space-between;
 }
 
+.day_text{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 100%;
+
+    color: #FFFFFF;
+}
+
 .line{
     color: #B42A40;
 }
 
 .wallet{
     padding: 22px;
+    border: 2px solid #CE731C;
+}
+
+.balans{
+    background-color: #202E3D;
+    margin-top: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

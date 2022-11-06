@@ -1,11 +1,14 @@
 import React from 'react'
 import styles from './stylesRegister.module.css'
+import logo from "../../img/logo.png"
+
 
 export const Register = () => {
   return (
     <div>
         <div>
-        <p className={styles.text}>Форма регистрации нового пользователя киберспортивного клуба</p>
+          <img className = {styles.img_logo} src={logo} alt='Cyberpoint' />
+          <p className={styles.text}>Форма регистрации нового пользователя киберспортивного клуба</p>
           <form className={styles.form}>
             <input className={styles.input} type = 'text' placeholder='Логин'/>
             <input className={styles.input} type = 'text' placeholder='ФИО'/>

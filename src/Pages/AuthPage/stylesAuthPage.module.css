@@ -50,33 +50,32 @@
     color: #BEBEBE;
 }
 
-.img_logo{
-    margin-top: 150px;
-}
-
 .img_add{
-    margin-top: 73px;
-
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 .alt_shift{
-    display:flex
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    max-width: 450px;
 }
 
 .text_88{
-    font-size: 595px;
+    font-family: "Squartiqa4FItalic";
+    font-size: 575px;
     line-height: 697px;
     text-align: right;
     color: #B42A40;
-    font-style: italic;
+    font-style: normal;
+    margin-top: 80px;
 }
 
-.font-special{
-    font-family: "Squartiqa4FItalic";
-}
 
 .chouse_language{
     display: flex;
+    margin-top: 10px;
 }
 
 .russia{

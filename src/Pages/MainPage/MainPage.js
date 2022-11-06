@@ -79,37 +79,37 @@ export const MainPage = () => {
             <p>История почещений</p>
             <hr className={styles.line}/>
             <div className={styles.day}>
-              <p>Пятница</p>
-              <p>30.04.2021</p>
+              <p className={styles.day_text}>Пятница</p>
+              <p className={styles.day_text}>30.04.2021</p>
             </div>
             <hr/>
             <div className={styles.day}>
-              <p>Четверг</p>
-              <p>29.04.2021</p>
+              <p className={styles.day_text}>Четверг</p>
+              <p className={styles.day_text}>29.04.2021</p>
             </div>
             <hr/>
             <div className={styles.day}>
-              <p>Среда</p>
-              <p>28.04.2021</p>
+              <p className={styles.day_text}>Среда</p>
+              <p className={styles.day_text}>28.04.2021</p>
             </div>
             <hr/>
             <div className={styles.day}>
-              <p>Вторник</p>
-              <p>27.04.2021</p>
+              <p className={styles.day_text}>Вторник</p>
+              <p className={styles.day_text}>27.04.2021</p>
             </div>
           </div>
 
-          <div>
+          <div className={styles.wallet}>
             <p>Ваш баланс</p>
-            <div>
+            <div className={styles.balans}>
               <p>Ваш баланс</p>
               <p>523 334  KZT</p>
             </div>
-            <div>
+            <div className={styles.balans}>
               <p>Ваш кэшбек</p>
               <p>523 334  KZT</p>
             </div>
-            <div>
+            <div className={styles.balans}>
               <p>Bonus</p>
               <p>523 334  KZT</p>
             </div>

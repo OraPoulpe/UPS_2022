@@ -4,7 +4,6 @@ import { Register } from '../../Componets/Register/Register'
 import styles from "./stylesAuthPage.module.css"
 import font from '../../index.css'
 import add from "../../img/Add.png"
-import logo from "../../img/logo.png"
 import AltShift from "../../img/AltShift.png"
 import russia from '../../img/russia.png'
 import usa from '../../img/united-states.png'
@@ -12,31 +11,30 @@ import usa from '../../img/united-states.png'
 export const AuthPage = () => {
 
     const [formType, setFormType] = useState("login")
-    const [formLogin, setFormLogin] = useState({
-        login:"",
-        password:""
-    })
+    // const [formLogin, setFormLogin] = useState({
+    //     login:"",
+    //     password:""
+    // })
 
-    const [formRegister, setFormRegister] = useState({
-        login:"",
-        password:"",
-        confirmPassword:"",
-        fio:"",
-        phone:"",
-        email:"",
-    })
+    // const [formRegister, setFormRegister] = useState({
+    //     login:"",
+    //     password:"",
+    //     confirmPassword:"",
+    //     fio:"",
+    //     phone:"",
+    //     email:"",
+    // })
 
-    const handleClickLogin=(e)=>{
+    const handleClickLogin=()=>{
         setFormType("login")
     }
-    const handleClickRegister=(e)=>{
+    const handleClickRegister=()=>{
         setFormType("register")
     }
 
     return (
         <div className={styles.auth_layout}>
-             <section >
-                <img className = {styles.img_logo} src={logo} alt='Cyberpoint' />   
+             <section >   
                 {formType==="login" && <Login/>}
                 {formType==="register" && <Register/>}
                 <div className={styles.checkbox_from}>
@@ -70,7 +68,7 @@ export const AuthPage = () => {
                 </div>
             </section>
             <section>
-                <p className={styles.text_88 + " "+ styles['font-special']}>88</p>
+                <p className={styles.text_88}>88</p>
             </section>
         </div>
     )

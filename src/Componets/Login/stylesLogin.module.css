@@ -1,6 +1,6 @@
 .input{
-    height: 26px;
-    width: 304px;
+    height: 56px;
+    width: 324px;
     /* min-width: 150px; */
     background: #1E1E1E;
     border: 1.68px solid white;
@@ -27,4 +27,8 @@
 .text{
     color: #BEBEBE;
     margin-top: 35px;
+}
+
+.img_logo{
+    margin-top: 50px;
 }
