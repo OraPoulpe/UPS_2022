@@ -1,0 +1,108 @@
+.auth_layout{
+    background: url('../../img/bg.png') no-repeat center/cover;
+    /* background-color: #B42A40; */
+    min-height: 100vh;
+    border: 33px solid #B42A40;
+    padding: 30px 80px;
+    display: flex;
+    box-sizing: border-box;
+}
+
+
+.btn_login{
+    background-image: url('../../img/btn_login.png');
+    height: 78px;
+    width: 324px;
+    border: none;
+    /* border: 0.5px solid white; */
+
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #FFFFFF;
+}
+
+.btn_register{
+    background-color: transparent;
+    height: 78px;
+    width: 324px;
+    border: 4px solid #B42A40;
+
+    font-size: 24px;
+    line-height: 28px;
+
+    color: #B42A40;
+}
+
+.btn_form{
+    display:flex;
+    justify-content: space-between;
+    max-width: 701px;
+    margin-top: 30px;
+}
+
+.checkbox_from{
+    display: flex;
+    margin-top: 9px
+}
+
+.text{
+    color: #BEBEBE;
+}
+
+.img_logo{
+    margin-top: 150px;
+}
+
+.img_add{
+    margin-top: 73px;
+
+}
+
+.alt_shift{
+    display:flex
+}
+
+.text_88{
+    font-size: 595px;
+    line-height: 697px;
+    text-align: right;
+    color: #B42A40;
+    font-style: italic;
+}
+
+.font-special{
+    font-family: "Squartiqa4FItalic";
+}
+
+.chouse_language{
+    display: flex;
+}
+
+.russia{
+    height: 70px;
+    width: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D3449;
+}
+
+.russian_flag{
+    width: 75px;
+    height: 48px;
+}
+
+.usa{
+    height: 70px;
+    width: 148px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #1D3449; */
+}
+
+.usa_flag{
+    width: 74px;
+    height: 48px;
+}
