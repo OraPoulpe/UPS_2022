@@ -14,8 +14,7 @@ code {
 
 @font-face { 
   font-family: "Squartiqa4FItalic";
-  src:  url("./Fonts/Squartiqa4FItalic.woff") format("woff"),
-  url("./Fonts/Squartiqa4FItalic.ttf") format("truetype");
+  src:  url("./Fonts/Squartiqa4FItalic.woff") format("woff");
   font-style: italic;
   font-weight: normal;
 }

@@ -1,4 +1,19 @@
 .application{
     width:124px;
-    height: 159px;
+    height: 190px;
+    margin: 5px;
+}
+
+.img{
+    width:124px;
+    height:124px;
+}
+
+.name_game{
+    font-family: "Squartiqa4FItalic";
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+
+    color: #FFFFFF;
 }

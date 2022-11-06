@@ -10,6 +10,7 @@
 
 
 .btn_login{
+    font-family: "Squartiqa4FItalic";
     background-image: url('../../img/btn_login.png');
     height: 78px;
     width: 324px;
@@ -23,6 +24,7 @@
 }
 
 .btn_register{
+    font-family: "Squartiqa4FItalic";
     background-color: transparent;
     height: 78px;
     width: 324px;
@@ -104,4 +106,49 @@
 .usa_flag{
     width: 74px;
     height: 48px;
+}
+
+.section_right{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: right; 
+}
+
+.div_under{
+    display: flex;
+}
+
+.div_text2{
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    background-color: #1D2731;
+    padding: 18px 35px;
+}
+
+.div_text3{
+    max-width: 400px;
+    display: flex;
+    align-items: center;
+    padding: 18px 35px;
+}
+
+.text2{
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 33px;
+
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.text3{
+    font-family: "Squartiqa4FItalic";
+    font-size: 40px;
+    line-height: 47px;
+
+    color: #B42A40;
 }

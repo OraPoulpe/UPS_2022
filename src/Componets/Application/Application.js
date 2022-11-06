@@ -3,13 +3,10 @@ import styles from "./Applications.styles.module.css"
 
 export const Application = (props) => {
 
-
-  // const check =
-
   return (
     <div className={styles.application}>
-      
-      <div>{props.children}</div>
+      <img className={styles.img} src={require(`../../img/soft/${props.children}.png`)}></img>
+      <div className={styles.name_game}>{props.children}</div>
     </div>
   )
 }

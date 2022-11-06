@@ -15,15 +15,14 @@ import fort from '../../img/games/fort.png'
 import league from '../../img/games/league.png'
 import warzone from '../../img/games/warzone.png' 
 
-//Soft IMG
-import steam from '../../img/soft/steam.png'
-import chrome from '../../img/soft/chrome.png'
-import ds from '../../img/soft/ds.png'
-import faceit from '../../img/soft/faceit.png'
-import origin from '../../img/soft/origin.png'
-import ts from '../../img/soft/ts.png'
-import epic from '../../img/soft/epic.png'
-import battle from '../../img/soft/battle.png'
+import computer from '../../img/computer.png'
+import tarif from '../../img/tarif.png'
+import exit from '../../img/exit.png'
+import restart from '../../img/restart.png'
+
+import logo from "../../img/logo.png"
+import chouse from "../../img/chouse.png"
+
 
 
 export const MainPage = () => {
@@ -31,11 +30,15 @@ export const MainPage = () => {
     <div className={styles["main-page-layout"]}>
       <div className={styles.header}>
         <div className={styles["header-content"]}>
-          <div>logo</div>
-          <div>выбрать тариф</div>
+          <div>
+          <img className = {styles.img_logo} src={logo} alt='Cyberpoint' />
+          </div>
+          <div>
+          <img className = {styles.img_logo} src={chouse} alt='Cyberpoint' />
+          </div>
           <div>бемсплатный тариф</div>
         </div>
-        <div>иван иванов</div>
+        {/* <div>иван иванов</div> */}
       </div>
       <div className={styles["main-page-content"]}>
         <div className={styles["left-sidebar"]}>
@@ -53,15 +56,19 @@ export const MainPage = () => {
             <div>
               <img src={csgo} alt='CsGo' />
               <p className={styles.text_delete}>Убрать из избранного</p>
-              <img src={dota} alt='CsGo' />
+              <img src={dota} alt='dota' />
               <p className={styles.text_delete}>Убрать из избранного</p>
-              <img src={warzone} alt='CsGo' />
+              <img src={warzone} alt='warzone' />
               <p className={styles.text_delete}>Убрать из избранного</p>
-              <img src={fort} alt='CsGo' />
+              <img src={fort} alt='fort' />
               <p className={styles.text_delete}>Убрать из избранного</p>
-              <img src={league} alt='CsGo' />
+              <img src={league} alt='league' />
               <p className={styles.text_delete}>Убрать из избранного</p>
-              <img src={warzone} alt='CsGo' />
+              <img src={warzone} alt='warzone' />
+              <p className={styles.text_delete}>Убрать из избранного</p>
+              <img src={warzone} alt='warzone' />
+              <p className={styles.text_delete}>Убрать из избранного</p>
+              <img src={league} alt='league' />
               <p className={styles.text_delete}>Убрать из избранного</p>
             </div>
           </div>
@@ -76,43 +83,56 @@ export const MainPage = () => {
         </div>
         <div className={styles["right-sidebar"]}>
           <div className={styles.history}>
-            <p>История почещений</p>
-            <hr className={styles.line}/>
+            <p className={styles.text3}>История почещений</p>
+            <hr className={styles.line1}/>
             <div className={styles.day}>
-              <p className={styles.day_text}>Пятница</p>
-              <p className={styles.day_text}>30.04.2021</p>
+              <p className={styles.day_text1}>Пятница</p>
+              <p className={styles.day_text2}>30.04.2021</p>
             </div>
             <hr/>
             <div className={styles.day}>
-              <p className={styles.day_text}>Четверг</p>
-              <p className={styles.day_text}>29.04.2021</p>
+              <p className={styles.day_text1}>Четверг</p>
+              <p className={styles.day_text2}>29.04.2021</p>
             </div>
             <hr/>
             <div className={styles.day}>
-              <p className={styles.day_text}>Среда</p>
-              <p className={styles.day_text}>28.04.2021</p>
+              <p className={styles.day_text1}>Среда</p>
+              <p className={styles.day_text2}>28.04.2021</p>
             </div>
             <hr/>
             <div className={styles.day}>
-              <p className={styles.day_text}>Вторник</p>
-              <p className={styles.day_text}>27.04.2021</p>
+              <p className={styles.day_text1}>Вторник</p>
+              <p className={styles.day_text2}>27.04.2021</p>
             </div>
           </div>
 
           <div className={styles.wallet}>
-            <p>Ваш баланс</p>
+            <p className={styles.text3}>Ваш баланс</p>
             <div className={styles.balans}>
-              <p>Ваш баланс</p>
-              <p>523 334  KZT</p>
+              <p className={styles.balans_text1}>Ваш баланс</p>
+              <p className={styles.balans_text2}>523 334  KZT</p>
             </div>
             <div className={styles.balans}>
-              <p>Ваш кэшбек</p>
-              <p>523 334  KZT</p>
+              <p className={styles.balans_text1}>Ваш кэшбек</p>
+              <p className={styles.balans_text2}>523 334  KZT</p>
             </div>
             <div className={styles.balans}>
-              <p>Bonus</p>
-              <p>523 334  KZT</p>
+              <p className={styles.balans_text1}>Bonus</p>
+              <p className={styles.balans_text2}>523 334  KZT</p>
             </div>
+          </div>
+
+          <div className={styles.div_tarif}>
+            <img src={tarif} alt='tarif' />
+          </div>
+
+          <div className={styles.div_tarif}>
+            <img src={computer} alt='computer' />
+          </div>
+
+          <div>
+            <img src={exit} alt='exit' />
+            <img src={restart} alt='restart' />
           </div>
         </div>
       </div>

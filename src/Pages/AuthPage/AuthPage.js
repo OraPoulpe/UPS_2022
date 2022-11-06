@@ -67,8 +67,16 @@ export const AuthPage = () => {
                     <img src={AltShift} alt='Alt+Shift' /> 
                 </div>
             </section>
-            <section>
+            <section className={styles.section_right}>
                 <p className={styles.text_88}>88</p>
+                <div className={styles.div_under}>
+                    <div className={styles.div_text2}>
+                        <p className={styles.text2}>вы находитесь в зоне</p>
+                    </div>
+                    <div className={styles.div_text3}>
+                        <p className={styles.text3}>standart</p>
+                    </div>
+                </div>
             </section>
         </div>
     )
