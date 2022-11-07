@@ -2,6 +2,8 @@ import React from "react";
 import styles from "./stylesMainPage.module.css";
 import { application_data } from "./mock";
 import { Application } from "../../Componets/Application/Application";
+import Header from "./Header/Header";
+
 import games from '../../img/nav_bar/games.png'
 import wallet from '../../img/nav_bar/wallet.png'
 import sale from '../../img/nav_bar/sale.png'
@@ -20,26 +22,14 @@ import tarif from '../../img/tarif.png'
 import exit from '../../img/exit.png'
 import restart from '../../img/restart.png'
 
-import logo from "../../img/logo.png"
-import chouse from "../../img/chouse.png"
+
 
 
 
 export const MainPage = () => {
   return (
     <div className={styles["main-page-layout"]}>
-      <div className={styles.header}>
-        <div className={styles["header-content"]}>
-          <div>
-          <img className = {styles.img_logo} src={logo} alt='Cyberpoint' />
-          </div>
-          <div>
-          <img className = {styles.img_logo} src={chouse} alt='Cyberpoint' />
-          </div>
-          <div>бемсплатный тариф</div>
-        </div>
-        {/* <div>иван иванов</div> */}
-      </div>
+      <Header/>
       <div className={styles["main-page-content"]}>
         <div className={styles["left-sidebar"]}>
           <div className={styles["left-sidebar-left"]}>
@@ -53,7 +43,7 @@ export const MainPage = () => {
           </div>
           <div className={styles["left-sidebar-right"]}>
             <p className={styles.text_fevorites}>Избранное</p>
-            <div>
+            <div className={styles.favorites_list}>
               <img src={csgo} alt='CsGo' />
               <p className={styles.text_delete}>Убрать из избранного</p>
               <img src={dota} alt='dota' />

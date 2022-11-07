@@ -11,7 +11,15 @@
 <br/>
 
 ### Сайт поднят на хостинге ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
-### Можно оценить его по [ссылке](ups-2022-orapoulpe.vercel.app)
+### Можно оценить его по [ссылке](https://ups-2022-orapoulpe.vercel.app)
+
+<br/>
+
+### Также демострация сайта есть на [YouTube](https://youtu.be/XNNdpo2mW6U)
+
+<br/>
+
+#### Сергей Сазонов
 
 
 

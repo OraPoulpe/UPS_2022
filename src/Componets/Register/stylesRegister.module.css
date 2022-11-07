@@ -1,12 +1,12 @@
 .input{
     height: 42px;
     width: 243px;
-    box-sizing: border-box;
     /* min-width: 150px; */
     background: #1E1E1E;
-    border: 1.68px solid white;
-    padding: 15px 0 16px 20px; 
-    margin-top: 15px;
+    border: 1.5px solid white;
+    padding: 14px 0 14px 20px; 
+    caret-color: white;
+    color: white;
 }
 
 
@@ -32,3 +32,42 @@
     margin-top: 15px;
     margin-bottom: 3px;
 } 
+
+.btn_show_password{
+    background-image: url('../../img/show_password.png');
+    background-color: transparent;
+    border: none;
+    height: 10px;
+    width: 13.5px;
+    background-size: cover;
+    margin-right: 15px;
+    align-content: center;
+}
+
+.div_input_password{
+    height: 42px;
+    width: 243px;
+    /* min-width: 150px; */
+    background: #1E1E1E;
+    border: 1.5px solid white;
+    padding: 14px 0 14px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input_password{
+    background-color: transparent;
+    border: none;
+    color: white;
+    caret-color: white;
+    padding: 0;
+}
+
+.input_password:focus {
+    outline: none;
+}
+
+.input_password::placeholder{
+    color: white;
+}

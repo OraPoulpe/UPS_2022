@@ -1,0 +1,31 @@
+.header{
+    width:100%;
+    border:1px solid black;
+    height:84px;
+    /* display: grid; */
+    /* grid-template-columns: 4fr 1fr; */
+    background-color: #101820;
+}
+
+.header_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img_logo{
+    width: 148px;
+    height: 63px;
+}
+
+.btn_choose{
+    background-image: url("../../../img/MainPage/bg_btn_choose.png");
+    width: 200px;
+    height: 60px;
+
+    font-family: "Squartiqa4FItalic";
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+}
