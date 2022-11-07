@@ -1,0 +1,99 @@
+.img_logo{
+    margin-top: 30px;
+    width: 283px;
+}
+
+.btn_login{
+    font-family: "Squartiqa4FItalic";
+    background-image: url('../../../img/btn_login.png');
+    height: 58px;
+    width: 243px;
+    border: none;
+    /* border: 0.5px solid white; */
+
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #FFFFFF;
+}
+
+.btn_register{
+    font-family: "Squartiqa4FItalic";
+    background-color: transparent;
+    height: 58px;
+    width: 243px;
+    border: 4px solid #B42A40;
+
+    font-size: 18px;
+    line-height: 21px;
+
+    color: #B42A40;
+}
+
+.btn_div{
+    display:flex;
+    justify-content: space-between;
+    max-width: 525px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.checkbox_div{
+    display: flex;
+    margin-top: 10px;
+}
+
+.text{
+    color: #BEBEBE;
+    font-size: 15px;
+}
+
+.img_add{
+    width: 525px;
+    /* margin-top: 30px; */
+    margin-bottom: 10px;
+}
+
+.img_alt_shift{
+    width: 120px;
+}
+
+.alt_shift{
+    display:flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    max-width: 450px;
+}
+
+.chouse_language{
+    display: flex;
+    margin-top: 10px;
+}
+
+.div_russia{
+    height: 46px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1D3449;
+}
+
+.russian_flag{
+    width: 56px;
+    height: 36px;
+}
+
+.div_usa{
+    height: 46px;
+    width: 96px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: #1D3449; */
+}
+
+.usa_flag{
+    width: 56px;
+    height: 36px;
+}

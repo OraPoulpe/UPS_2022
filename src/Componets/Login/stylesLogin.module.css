@@ -1,6 +1,6 @@
 .input{
-    height: 56px;
-    width: 324px;
+    height: 42px;
+    width: 243px;
     /* min-width: 150px; */
     background: #1E1E1E;
     border: 1.68px solid white;
@@ -17,18 +17,15 @@
 }
 
 .form{
-    max-width: 701px;
+    max-width: 525px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 8px;
-    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .text{
     color: #BEBEBE;
-    margin-top: 35px;
+    margin-top: 15px;
+    margin-bottom: 18px;
 }
 
-.img_logo{
-    margin-top: 50px;
-}
