@@ -4,12 +4,6 @@ import { application_data } from "./mock";
 import { Application } from "../../Componets/Application/Application";
 import Header from "./Header/Header";
 
-import games from '../../img/nav_bar/games.png'
-import wallet from '../../img/nav_bar/wallet.png'
-import sale from '../../img/nav_bar/sale.png'
-import bar from '../../img/nav_bar/bar.png'
-import windows from '../../img/nav_bar/windows_logo.png'
-
 //Games IMG
 import csgo from '../../img/games/csgo.png'
 import dota from '../../img/games/dota.png'
@@ -21,6 +15,7 @@ import computer from '../../img/computer.png'
 import tarif from '../../img/tarif.png'
 import exit from '../../img/exit.png'
 import restart from '../../img/restart.png'
+import NavBar from "./NavBar/NavBar";
 
 
 
@@ -32,15 +27,7 @@ export const MainPage = () => {
       <Header/>
       <div className={styles["main-page-content"]}>
         <div className={styles["left-sidebar"]}>
-          <div className={styles["left-sidebar-left"]}>
-            <div>
-              <img src={games} alt='Games' />
-              <img src={wallet} alt='Add' />
-              <img src={sale} alt='Sale' />
-              <img src={bar} alt='Bar' />
-            </div>
-            {/* <img src={windows} alt='Games' /> */}
-          </div>
+          <NavBar/>
           <div className={styles["left-sidebar-right"]}>
             <p className={styles.text_fevorites}>Избранное</p>
             <div className={styles.favorites_list}>

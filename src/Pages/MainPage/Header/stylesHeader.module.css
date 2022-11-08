@@ -1,7 +1,7 @@
 .header{
     width:100%;
     border:1px solid black;
-    height:84px;
+    height:86px;
     /* display: grid; */
     /* grid-template-columns: 4fr 1fr; */
     background-color: #101820;
@@ -15,7 +15,8 @@
 
 .img_logo{
     width: 148px;
-    height: 63px;
+    height: 60px;
+    margin-left: 40px
 }
 
 .btn_choose{
@@ -28,4 +29,58 @@
     line-height: 16px;
     text-align: center;
     color: #FFFFFF;
+}
+
+.free_div{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.free_img{
+    width: 355px;
+    height: 25px;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.profile_div{
+    width: 307px;
+    height: 86px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #B42A40;
+}
+
+.nick_div{
+    margin-right: 30px; 
+}
+
+.nick_text{
+    font-family: "Squartiqa4FItalic";
+    font-size: 17px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 5px;
+}
+
+.info_div{
+    display: flex;
+    justify-content: space-between;
+}
+
+.info_text{
+   font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.avatar_img{
+    width: 60px;
+    height: 60px;
+    margin: 20px;
 }

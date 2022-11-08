@@ -11,7 +11,15 @@
 <br/>
 
 ### Сайт поднят на хостинге ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white)
+
 ### Можно оценить его по [ссылке](https://ups-2022-orapoulpe.vercel.app)
+
+<br/>
+
+#### [Главная страница](https://ups-2022-orapoulpe.vercel.app/main)
+
+
+#### [Cтраница авторизации](https://ups-2022-orapoulpe.vercel.app)
 
 <br/>
 
